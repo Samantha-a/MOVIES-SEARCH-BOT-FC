@@ -73,7 +73,6 @@ async def start(bot, cmd):
             ],[
             InlineKeyboardButton('Channel', url='https://t.me/+AMHw_K1wvOM3MTU9')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                     ]
                     ]
@@ -113,11 +112,8 @@ async def start(bot, cmd):
             ],[
             InlineKeyboardButton('Channel', url='https://t.me/+AMHw_K1wvOM3MTU9')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                     ],
-                    [
-                        InlineKeyboardButton("♻️ SΞARCH HΞRΞ ♻️", switch_inline_query_current_chat='')
                     ]
                 ]
             )
