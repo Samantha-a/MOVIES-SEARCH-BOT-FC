@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Samantha.jpg" alt="Devil V2 Logo">
+</p>
+
 # Bot ›› [Movie Search bot](@Movie_Search_fcBot)
 
 ## Added Features
