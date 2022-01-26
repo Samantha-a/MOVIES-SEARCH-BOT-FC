@@ -66,8 +66,14 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎', switch_inline_query_current_chat='')
-                        InlineKeyboardButton('𝙲𝚑𝚊𝚗𝚗𝚎𝚕', url='https://t.me/+AMHw_K1wvOM3MTU9')
+                        InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url='http://t.me/Jd_73_bot?startgroup=true')
+                    ],[
+                        InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('Group', url='https://t.me/moviebus2')
+                    ],[
+                        InlineKeyboardButton('Channel', url='https://t.me/+AMHw_K1wvOM3MTU9')
+                    ],[
+                        InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -191,7 +197,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('  𝙶𝚛𝚘𝚞𝚙 ', url='https://t.me/moviebus2')          
+            InlineKeyboardButton('𝙶𝚛𝚘𝚞𝚙', url='https://t.me/moviebus2')          
         ]
         ]
     await message.reply(text="<b>╭━━━━━━━━━━━━━━━➣</b>\n<b>┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 ›› <a href='https://t.me/Search010Bot'>𝙼𝚂 𝙱𝙾𝚃</a></b>\n<b>┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ›› <a href='https://t.me/Aadhi011/'>ꪖꪖᦔꫝỉ </a></b>\n<b>┣⪼ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ›› <a href='https://github.com/Aadhi000/Movies-Search-Bot-MW'>𝙼𝚂-𝙱𝙾𝚃</a></b>\n<b>┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 ›› 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>\n<b>┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 ›› 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>\n<b>┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 ›› 𝙿𝚈𝚃𝙷𝙾𝙽</b>\n<b>╰━━━━━━━━━━━━━━━➣</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
