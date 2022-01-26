@@ -84,7 +84,7 @@ logger - Get log file
 
 ## Thanks to 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
-* Original [Repo](https://github.com/Aadhi000/Movies-Search-Bot-MW)
+* Original [Repo](https://github.com/Samantha-a/MOVIES-SEARCH-BOT-FC)
 
 
 ## Support
