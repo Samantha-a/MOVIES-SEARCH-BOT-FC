@@ -13,7 +13,7 @@
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aadhi000/Movies-Search-Bot-MW)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Samantha-a/MOVIES-SEARCH-BOT-FC)
 ### Hard Way
 
 ```bash
@@ -84,7 +84,7 @@ logger - Get log file
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/BKC0001)
+Contact Me On [Telegram](https://t.me/albintko)
 
 [Update Channel](https://t.me/Minnal_Murali2021HD)
 
