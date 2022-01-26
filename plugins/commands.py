@@ -102,7 +102,7 @@ async def start(bot, cmd):
             START_MSG,
             parse_mode="Markdown",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
+            reply_markup=InlineKeyboardMarkup],
                     [
                         InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Jd_73_bot?startgroup=true')
             ],[
