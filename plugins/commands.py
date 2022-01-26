@@ -66,11 +66,11 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('  𝙶𝚛𝚘𝚞𝚙 ', url='https://t.me/moviebus2'),
-                        InlineKeyboardButton('  𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ', url='https://t.me/+AMHw_K1wvOM3MTU9')
+                        InlineKeyboardButton('𝙶𝚛𝚘𝚞𝚙', url='https://t.me/moviebus2'),
+                        InlineKeyboardButton('𝙲𝚑𝚊𝚗𝚗𝚎𝚕', url='https://t.me/+AMHw_K1wvOM3MTU9')
                     [
-                        InlineKeyboardButton(' 𝙰𝚋𝚘𝚞𝚝 ', callback_data='about')
-                        InlineKeyboardButton(' 𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎 ', switch_inline_query_current_chat='')
+                        InlineKeyboardButton('𝙰𝚋𝚘𝚞𝚝', callback_data='about')
+                        InlineKeyboardButton('𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎', switch_inline_query_current_chat='')
                     ],
                     ]
                 await bot.send_cached_media(
@@ -102,11 +102,11 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('  𝙶𝚛𝚘𝚞𝚙 ', url='https://t.me/moviebus2'),
-                        InlineKeyboardButton('  𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ', url='https://t.me/+AMHw_K1wvOM3MTU9')
+                        InlineKeyboardButton('𝙶𝚛𝚘𝚞𝚙', url='https://t.me/moviebus2'),
+                        InlineKeyboardButton('𝙲𝚑𝚊𝚗𝚗𝚎𝚕', url='https://t.me/+AMHw_K1wvOM3MTU9')
                     [
-                        InlineKeyboardButton(' 𝙰𝚋𝚘𝚞𝚝 ', callback_data='about')
-                        InlineKeyboardButton(' 𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎 ', switch_inline_query_current_chat='')
+                        InlineKeyboardButton('𝙰𝚋𝚘𝚞𝚝', callback_data='about')
+                        InlineKeyboardButton('𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎', switch_inline_query_current_chat='')
                     ],
                     ]
                 ]
