@@ -2,7 +2,7 @@
   <img src="Samantha.jpg" alt="Devil V2 Logo">
 </p>
 
-# Bot ›› [Movie Search bot](@Movie_Search_fcBot)
+# Bot ›› [Movie Search bot](Movie_Search_fcBot)
 # Group ›› [Filim club](@moviebus2)
 ## Added Features
 * Imdb posters for autofilter.
