@@ -66,9 +66,15 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('♻️ SΞARCH HΞRΞ ♻️', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('♥️ CHAИИΞL ♥️', url='https://t.me/+AMHw_K1wvOM3MTU9'),
-                        InlineKeyboardButton('♥️ GROUP ♥️', url='https://t.me/moviebus2')
+                        InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Jd_73_bot?startgroup=true')
+            ],[
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Group', url='https://t.me/moviebus2')
+            ],[
+            InlineKeyboardButton('Channel', url='https://t.me/+AMHw_K1wvOM3MTU9')
+            ],[
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,9 +106,15 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♥️ CHAИИΞL ♥️", url="https://t.me/+AMHw_K1wvOM3MTU9"),
-                        InlineKeyboardButton('♥️ GROUP ♥️', url='https://t.me/moviebus2'),
-                        InlineKeyboardButton("⚡ ΛBOUT ⚡", callback_data="about")
+                        InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Jd_73_bot?startgroup=true')
+            ],[
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Group', url='https://t.me/moviebus2')
+            ],[
+            InlineKeyboardButton('Channel', url='https://t.me/+AMHw_K1wvOM3MTU9')
+            ],[
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                     ],
                     [
                         InlineKeyboardButton("♻️ SΞARCH HΞRΞ ♻️", switch_inline_query_current_chat='')
