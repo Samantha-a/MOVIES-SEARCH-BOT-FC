@@ -1,5 +1,5 @@
 # Bot information
-SESSION = 'Media_search'
+SESSION = 'Media_search_bot_fc'
 USER_SESSION = 'User_Bot'
 API_ID = 12345
 API_HASH = '0123456789abcdef0123456789abcdef'
