@@ -66,7 +66,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     ]
-                        InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
                         InlineKeyboardButton('Group', url='https://t.me/moviebus2')
                     ],
                         InlineKeyboardButton('Channel', url='https://t.me/+AMHw_K1wvOM3MTU9')
