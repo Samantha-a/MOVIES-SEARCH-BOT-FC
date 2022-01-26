@@ -65,8 +65,6 @@ async def start(bot, cmd):
                 if f_caption is None:
                     f_caption = f"{files.file_name}"
                 buttons = [
-                    [
-                        InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url='http://t.me/Jd_73_bot?startgroup=true')
                     ],[
                         InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
                         InlineKeyboardButton('Group', url='https://t.me/moviebus2')
@@ -79,7 +77,7 @@ async def start(bot, cmd):
                 await bot.send_cached_media(
                     chat_id=cmd.from_user.id,
                     file_id=file_id,
-                    caption=f_caption,
+        ,
                     reply_markup=InlineKeyboardMarkup(buttons)
                     )
         except Exception as err:
