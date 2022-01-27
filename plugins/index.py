@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 lock = asyncio.Lock()
 
 
-@Client.on_message(filters.command(['index', 'indexfiles']) & filters.user(ADMINS))
+@Client.on_message(filters.command(['add', 'addfiles']) & filters.user(ADMINS))
 async def index_files(bot, message):
     """Save channel or group files"""
     if lock.locked():
@@ -35,7 +35,7 @@ async def index_files(bot, message):
         async with lock:
             try:
                 total=last_msg_id + 1
-                current=int(os.environ.get("SKIP", 2))
+                current=int(os.environ.get("skip", 2))
                 nyav=0
                 while True:
                     try:
